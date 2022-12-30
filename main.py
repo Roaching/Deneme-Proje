@@ -1,6 +1,8 @@
 name = input("Adınız : ")
 print (f"Adınız {name}")
 
-while name == "Serhat":
+if name == "Serhat":
     print("Kod çalıştı")
+else:
+    print("Kod Çalışmadı")
 
